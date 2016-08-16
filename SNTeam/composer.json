@@ -1,0 +1,34 @@
+{
+  "name" : "alexbykovski/snteam/feature-manager-bundle",
+  "description" : "Bundle for checking of activity of features on a project",
+  "type" : "symfony-bundle",
+  "authors" : [{
+    "name" : "Alexander Bykovski",
+    "email" : "bykovski.work@gmail.com"
+  },
+  {
+    "name": "Slava Belokurski",
+    "email": "slavchoo2@gmail.com"
+  }],
+  "keywords" : [
+    "feature manager"
+  ],
+  "license" : [
+    "MIT"
+  ],
+  "require" : {
+  },
+  "autoload" : {
+    "psr-4" : {
+      "SNTeam\\FeatureManagerBundle" : ""
+    }
+  },
+  "target-dir" : "SNTeam/FeatureManagerBundle",
+  "repositories" : [{
+  }],
+  "extra" : {
+    "branch-alias" : {
+      "dev-master" : "some_version-dev"
+    }
+  }
+}
