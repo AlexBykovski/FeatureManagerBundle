@@ -1,0 +1,9 @@
+services:
+    manager.feature_manager:
+        class: SNTeam\FeatureManagerBundle\Manager\FeatureManager
+        arguments: ['%app.feature_manager%']
+    manager.twig_extension:
+            class: SNTeam\FeatureManagerBundle\Twig\FeatureTwigExtension
+            arguments: ['@manager.feature_manager']
+            tags:
+                - { name: twig.extension }
