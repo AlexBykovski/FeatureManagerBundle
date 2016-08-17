@@ -1,5 +1,5 @@
 {
-  "name" : "alexbykovski/snteam/feature-manager-bundle",
+  "name" : "AlexBykovski/FeatureManagerBundle",
   "description" : "Bundle for checking of activity of features on a project",
   "type" : "symfony-bundle",
   "authors" : [{
@@ -28,7 +28,7 @@
   }],
   "extra" : {
     "branch-alias" : {
-      "dev-master" : "some_version-dev"
+      "dev-master" : "1.0-dev"
     }
   }
 }
