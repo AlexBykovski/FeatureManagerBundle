@@ -1,5 +1,5 @@
 {
-  "name" : "AlexBykovski/FeatureManagerBundle",
+  "name" : "alex-bykovski/feature-manager-bundle",
   "description" : "Bundle for checking of activity of features on a project",
   "type" : "symfony-bundle",
   "authors" : [{
