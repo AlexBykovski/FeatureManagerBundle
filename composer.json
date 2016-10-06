@@ -18,6 +18,8 @@
   ],
   "require" : {
   },
+  "require-dev": {
+  },
   "autoload" : {
     "psr-4" : {
       "SNTeam\\FeatureManagerBundle" : ""
