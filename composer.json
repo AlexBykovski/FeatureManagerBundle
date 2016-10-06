@@ -22,7 +22,7 @@
   },
   "autoload" : {
     "psr-4" : {
-      "SNTeam\\FeatureManagerBundle" : ""
+      "SNTeam\\FeatureManagerBundle\\" : ""
     }
   },
   "target-dir" : "AlexBykovski/FeatureManagerBundle",
